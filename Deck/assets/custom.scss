@@ -1,0 +1,74 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+    background: $background;
+    /* Better Font Rendering =========== */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+p {
+    font-size: 18px;
+
+    color: $primary;
+}
+
+.title {
+    .markdown-body {
+        h1 {
+            font-size: 10rem;
+
+            color: $secondary;
+        }
+        h1,
+        h2,
+        h3 {
+            padding: 0;
+
+            text-align: center;
+        }
+    }
+}
+
+.contact {
+    .markdown-body {
+        ul {
+            margin-top: 0;
+        }
+    }
+}
+
+.markdown-body {
+    h1 {
+        font-weight: bold;
+    }
+    pre,
+    code {
+        border-radius: 2px;
+    }
+    pre {
+        background: #2d2d2d;
+    }
+    code {
+        background: #ffffff;
+    }
+}
+
+.left {
+    float: left;
+
+    width: 49% !important;
+    margin: 0 .5%;
+}
+
+// Text Selection Colour
+::selection {
+    background: $selection; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: $selection; /* Gecko Browsers */
+}
