@@ -1,4 +1,4 @@
-# sd&ml Deplayment Checklist
+# sd&ml Deployment Checklist
 
 - [Slides are here](http://deployment-checklist.sdaml.club)
 - [Notes are here](https://github.com/sdaml/deployment-checklist/Notes/)
