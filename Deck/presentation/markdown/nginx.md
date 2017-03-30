@@ -12,6 +12,7 @@ sudo apt-get install nginx
 sudo ufw app list # List available applications
 sudo ufw allow 'Nginx HTTP' # enable Nginx HTTP
 sudo ufw allow 'Nginx HTTPS' # enable Nginx HTTPS
+sudo ufw enable # enable firewall
 sudo ufw status # Verify changes
 ```
 - Visit your IP address in a web browser to see the nginx landing page
